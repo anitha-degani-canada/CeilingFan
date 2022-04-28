@@ -17,6 +17,14 @@ public class CeilingFan {
 		return direction;
 	}
 	
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+
+	public void setDirection(Direction direction) {
+		this.direction = direction;
+	}
+	
 	public void speedUp() {
 		if (speed == 3) {
 			speed = OFF;
